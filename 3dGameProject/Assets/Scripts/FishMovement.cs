@@ -20,6 +20,9 @@ public class FishMovement : MonoBehaviour
         float pitchInput = Input.GetAxis("Mouse Y");
         transform.Rotate(Vector3.right * -pitchInput * rotationSpeed * Time.deltaTime);
 
+        // Lock the z-axis rotation
+        transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, 0f);
+
         // You can also add additional controls for rolling (sideways rotation)
         //float rollInput = Input.GetAxis("Mouse X");
         //transform.Rotate(Vector3.forward * rollInput * rotationSpeed * Time.deltaTime);
