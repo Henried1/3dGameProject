@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI; // Import the UI namespace
 
@@ -20,7 +21,7 @@ public class Health : MonoBehaviour
     private Vector3 respawnPosition;
     private Quaternion respawnRotation;
 
-    public Text healthText;  // Reference to the UI Text element
+    public TextMeshProUGUI healthText;  // Reference to the UI Text element
 
     // Use this for initialization
     void Start()
@@ -38,7 +39,7 @@ public class Health : MonoBehaviour
         Canvas canvas = FindObjectOfType<Canvas>(); // Assuming there's only one canvas
         if (canvas != null)
         {
-            healthText = canvas.transform.Find("HealthText").GetComponent<Text>();
+            healthText = canvas.transform.Find("Health").GetComponent<TextMeshProUGUI>();
             if (healthText == null)
             {
                 Debug.LogError("HealthText not found!");

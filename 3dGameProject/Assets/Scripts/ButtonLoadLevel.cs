@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ButtonStart : MonoBehaviour
+public class ButtonLoadLevel : MonoBehaviour
 {
     public string LeveltoLoad;
 

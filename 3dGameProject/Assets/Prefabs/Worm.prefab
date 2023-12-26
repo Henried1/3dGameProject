@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 5751196509668233814}
   - component: {fileID: 746545271438874990}
   m_Layer: 0
-  m_Name: worm
-  m_TagString: Untagged
+  m_Name: Worm
+  m_TagString: Worm
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +101,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71740d8902c29d94e89221f591c2bca1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 50
 --- !u!114 &746545271438874990
 MonoBehaviour:
   m_ObjectHideFlags: 0

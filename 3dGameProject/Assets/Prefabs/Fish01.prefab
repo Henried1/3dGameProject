@@ -61,7 +61,12 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 33649016c5ac78b4a822579ec4fed6fd,
         type: 3}
       propertyPath: m_Name
-      value: Fish01 1
+      value: Fish01
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 33649016c5ac78b4a822579ec4fed6fd,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -83,6 +88,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 2103670094295686977}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 33649016c5ac78b4a822579ec4fed6fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -4201777800260813037}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 33649016c5ac78b4a822579ec4fed6fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -1824485341766734528}
   m_SourcePrefab: {fileID: 100100000, guid: 33649016c5ac78b4a822579ec4fed6fd, type: 3}
 --- !u!1 &8102972046296331762 stripped
 GameObject:
@@ -125,7 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
-  rotationSpeed: 500
+  rotationSpeed: 400
 --- !u!54 &6977762021931800520
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -176,3 +189,38 @@ CapsuleCollider:
   m_Height: 0.37
   m_Direction: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-4201777800260813037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102972046296331762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35295f0dde64aa4d89da0d83c44833d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worms: {fileID: 0}
+  wormsToCatch: 3
+  nextScenetoload: 
+--- !u!114 &-1824485341766734528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102972046296331762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b73102c6940d72643b1155b82e210766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthPoints: 100
+  respawnHealthPoints: 100
+  numberOfLives: 1
+  isAlive: 1
+  explosionPrefab: {fileID: 100010, guid: 1d4b0ab67b55c47478db96f61387e05b, type: 3}
+  onLivesGone: 0
+  LevelToLoad: Level1
+  healthText: {fileID: 0}
