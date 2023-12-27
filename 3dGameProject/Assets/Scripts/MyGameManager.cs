@@ -67,19 +67,19 @@ public class MyGameManager : MonoBehaviour
         if (gameState == Gamestates.Playing)
         {
             GameObject greenBall = GameObject.FindWithTag("GreenBall");
+            GameObject oil = GameObject.FindWithTag("Oil");
 
             if (greenBall != null && player.GetComponent<Collider>().bounds.Intersects(greenBall.GetComponent<Collider>().bounds))
             {
-                // Player has collided with the green ball, show the informationCanvas
                 gameState = Gamestates.Information;
-                Time.timeScale = 0f; // Pause the game
+                Time.timeScale = 0f; 
                 gameCanvas.SetActive(false);
                 gameOverCanvas.SetActive(false);
                 pauseCanvas.SetActive(false);
                 informationCanvas.SetActive(true);
 
-                // Destroy the green ball
                 Destroy(greenBall);
+                Destroy(oil);
             }
         }
     }
