@@ -474,6 +474,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 113461136}
   m_CullTransparentMesh: 1
+--- !u!1001 &143190298
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 10.222439
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.083415
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_Name
+      value: OilBlob (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
 --- !u!4 &207781006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5055523669128726497, guid: 6ae18360da8d43c49af6cc3e8c2678e4,
@@ -670,6 +738,74 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+--- !u!1001 &587786811
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.32062
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.8501863
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_Name
+      value: OilBlob (7)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
 --- !u!1 &796425367
 GameObject:
   m_ObjectHideFlags: 0
@@ -887,7 +1023,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1237,146 +1373,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74e035d52817ed04185bc315f730689d, type: 3}
---- !u!1 &1241922755
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1241922760}
-  - component: {fileID: 1241922759}
-  - component: {fileID: 1241922758}
-  - component: {fileID: 1241922757}
-  - component: {fileID: 1241922756}
-  - component: {fileID: 1241922761}
-  m_Layer: 0
-  m_Name: OilBlob
-  m_TagString: Oil
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1241922756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241922755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0a488b0e91b6b146b8d48939a218950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isoLevel: 0.5
---- !u!135 &1241922757
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241922755}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1241922758
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241922755}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 299a35c7e977f8149b49418992a87349, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &1241922759
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241922755}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &1241922760
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241922755}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 20.7, y: 1.65, z: -6.48}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1241922761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1241922755}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  damageOnTrigger: 1
-  damageOnCollision: 0
-  continuousDamage: 0
-  continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
-  delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!1 &1356858337
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,6 +2045,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687328927}
   m_CullTransparentMesh: 1
+--- !u!1001 &1810357830
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 16.483463
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.5953999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_Name
+      value: OilBlob (6)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
 --- !u!1 &1903952137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2698,5 +2762,7 @@ SceneRoots:
   - {fileID: 6937264359128985877}
   - {fileID: 1923096867}
   - {fileID: 25693692}
-  - {fileID: 1241922760}
   - {fileID: 932105113}
+  - {fileID: 143190298}
+  - {fileID: 1810357830}
+  - {fileID: 587786811}

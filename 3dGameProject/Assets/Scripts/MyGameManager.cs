@@ -67,19 +67,28 @@ public class MyGameManager : MonoBehaviour
         if (gameState == Gamestates.Playing)
         {
             GameObject greenBall = GameObject.FindWithTag("GreenBall");
-            GameObject oil = GameObject.FindWithTag("Oil");
 
-            if (greenBall != null && player.GetComponent<Collider>().bounds.Intersects(greenBall.GetComponent<Collider>().bounds))
+            if (greenBall != null)
             {
-                gameState = Gamestates.Information;
-                Time.timeScale = 0f; 
-                gameCanvas.SetActive(false);
-                gameOverCanvas.SetActive(false);
-                pauseCanvas.SetActive(false);
-                informationCanvas.SetActive(true);
+                GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
 
-                Destroy(greenBall);
-                Destroy(oil);
+                foreach (GameObject enemy in enemies)
+                {
+                    if (player.GetComponent<Collider>().bounds.Intersects(greenBall.GetComponent<Collider>().bounds))
+                    {
+                        gameState = Gamestates.Information;
+                        Time.timeScale = 0f;
+                        gameCanvas.SetActive(false);
+                        gameOverCanvas.SetActive(false);
+                        pauseCanvas.SetActive(false);
+                        informationCanvas.SetActive(true);
+
+                        Destroy(greenBall);
+
+                        // Destroy each enemy
+                        Destroy(enemy);
+                    }
+                }
             }
         }
     }

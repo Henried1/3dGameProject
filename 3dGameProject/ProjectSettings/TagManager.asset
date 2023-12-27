@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Worm
   - Oil
+  - Enemy
+  - Undefined
+  - GreenBall
   layers:
   - Default
   - TransparentFX
