@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -9,18 +7,21 @@ public class MyGameManager : MonoBehaviour
     public GameObject gameOverCanvas;
     public GameObject gameCanvas;
     public GameObject pauseCanvas;
+    public GameObject informationCanvas;
     private Health healthPlayer;
     public Button pauseButton;
-    // Start is called before the first frame update
+    public Button informationButton;
 
     public enum Gamestates
     {
         Playing,
         Paused,
-        GameOver
+        GameOver,
+        Information
     }
 
     public Gamestates gameState = Gamestates.Playing;
+
     void Start()
     {
         if (player == null)
@@ -29,6 +30,7 @@ public class MyGameManager : MonoBehaviour
         }
         healthPlayer = player.GetComponent<Health>();
         pauseButton.onClick.AddListener(TogglePause);
+        informationButton.onClick.AddListener(ToggleInformation);
     }
 
     void Update()
@@ -36,7 +38,6 @@ public class MyGameManager : MonoBehaviour
         switch (gameState)
         {
             case Gamestates.Playing:
-
                 if (!healthPlayer.isAlive)
                 {
                     gameState = Gamestates.GameOver;
@@ -47,6 +48,10 @@ public class MyGameManager : MonoBehaviour
                 {
                     TogglePause();
                 }
+
+                // Check for collision with the green ball
+                CheckGreenBallCollision();
+
                 break;
             case Gamestates.Paused:
                 if (Input.GetKeyDown(KeyCode.Escape))
@@ -55,17 +60,40 @@ public class MyGameManager : MonoBehaviour
                 }
                 break;
         }
-
     }
-    void TogglePause()
+
+    void CheckGreenBallCollision()
     {
         if (gameState == Gamestates.Playing)
+        {
+            GameObject greenBall = GameObject.FindWithTag("GreenBall");
+
+            if (greenBall != null && player.GetComponent<Collider>().bounds.Intersects(greenBall.GetComponent<Collider>().bounds))
+            {
+                // Player has collided with the green ball, show the informationCanvas
+                gameState = Gamestates.Information;
+                Time.timeScale = 0f; // Pause the game
+                gameCanvas.SetActive(false);
+                gameOverCanvas.SetActive(false);
+                pauseCanvas.SetActive(false);
+                informationCanvas.SetActive(true);
+
+                // Destroy the green ball
+                Destroy(greenBall);
+            }
+        }
+    }
+
+    void TogglePause()
+    {
+        if (gameState == Gamestates.Playing || gameState == Gamestates.Information)
         {
             Time.timeScale = 0f;
             gameState = Gamestates.Paused;
             gameCanvas.SetActive(false);
             gameOverCanvas.SetActive(false);
             pauseCanvas.SetActive(true);
+            informationCanvas.SetActive(false);
         }
         else if (gameState == Gamestates.Paused)
         {
@@ -74,6 +102,20 @@ public class MyGameManager : MonoBehaviour
             gameCanvas.SetActive(true);
             gameOverCanvas.SetActive(false);
             pauseCanvas.SetActive(false);
+            informationCanvas.SetActive(false);
+        }
+    }
+
+    void ToggleInformation()
+    {
+        if (gameState == Gamestates.Information)
+        {
+            Time.timeScale = 1f;
+            gameState = Gamestates.Playing;
+            gameCanvas.SetActive(true);
+            gameOverCanvas.SetActive(false);
+            pauseCanvas.SetActive(false);
+            informationCanvas.SetActive(false);
         }
     }
 }
