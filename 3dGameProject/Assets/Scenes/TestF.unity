@@ -209,19 +209,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 25693688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -90.90804}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 215479855}
   - {fileID: 113461137}
   - {fileID: 1143869563}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1393127143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5.5479307, y: -7.041541}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1001 &76523528
@@ -272,6 +272,11 @@ PrefabInstance:
       propertyPath: explosionPrefab
       value: 
       objectReference: {fileID: 100010, guid: 2f7bb272439f1924ab78821cfb974921, type: 3}
+    - target: {fileID: 2103670094295686977, guid: 6ae18360da8d43c49af6cc3e8c2678e4,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5055523669128726497, guid: 6ae18360da8d43c49af6cc3e8c2678e4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -796,10 +801,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1634159326085301690, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634159326085301690, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_Name
       value: OilBlob (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216584180874154878, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: damageOnCollision
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216584180874154878, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: continuousTimeBetweenHits
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1386,9 +1411,10 @@ GameObject:
   - component: {fileID: 1356858340}
   - component: {fileID: 1356858339}
   - component: {fileID: 1356858338}
+  - component: {fileID: 1356858343}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1405,11 +1431,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damageAmount: 50
+  damageAmount: 10
   damageOnTrigger: 1
   damageOnCollision: 0
-  continuousDamage: 0
-  continuousTimeBetweenHits: 0
+  continuousDamage: 1
+  continuousTimeBetweenHits: 1
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
   explosionPrefab: {fileID: 0}
@@ -1499,6 +1525,33 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1356858343
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1356858337}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1368818775
 GameObject:
   m_ObjectHideFlags: 0
@@ -1633,6 +1686,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1368818775}
   m_CullTransparentMesh: 1
+--- !u!4 &1393127143 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1868760734208800013, guid: f4df6e85f3267d64399a43055bf334b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6937264359128985877}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1544137336
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,6 +2167,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: OilBlob (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 3216584180874154878, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: damageOnTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3216584180874154878, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: damageOnCollision
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2350,19 +2419,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1923096863}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -90.90804}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2109185554}
   - {fileID: 1544137337}
   - {fileID: 1687328928}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1393127143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 5.5479307, y: -7.041541}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
 --- !u!1 &1949313666 stripped
@@ -2744,7 +2813,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1868760734208800013, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      insertIndex: 0
+      addedObject: {fileID: 25693692}
+    - targetCorrespondingSourceObject: {fileID: 1868760734208800013, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1923096867}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4df6e85f3267d64399a43055bf334b0, type: 3}
 --- !u!1660057539 &9223372036854775807
@@ -2760,8 +2837,6 @@ SceneRoots:
   - {fileID: 1076726907}
   - {fileID: 1356858342}
   - {fileID: 6937264359128985877}
-  - {fileID: 1923096867}
-  - {fileID: 25693692}
   - {fileID: 932105113}
   - {fileID: 143190298}
   - {fileID: 1810357830}
