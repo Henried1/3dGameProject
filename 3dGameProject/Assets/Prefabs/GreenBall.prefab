@@ -46,13 +46,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Settings: {fileID: 0}
   Prefabs:
-    RadarPrefab: {fileID: 114649513964931752, guid: 7df08e2a2fd0940469fa781e26554019,
+    RadarPrefab: {fileID: 114649513964931752, guid: 9d53eed18ebec194b9d5d162043ad8a3,
       type: 3}
-    CompassBarPrefab: {fileID: 114875581833013858, guid: d04e4256c86dfc4439da3d1b4407458e,
+    CompassBarPrefab: {fileID: 114875581833013858, guid: 5b0f24b6950e05b43b59110b441b07d5,
       type: 3}
-    IndicatorPrefab: {fileID: 114724236924444632, guid: b97d8841013a7a643bb2c5c9fe8da06e,
+    IndicatorPrefab: {fileID: 114724236924444632, guid: 49782b08844e3054bb21b734be10f168,
       type: 3}
-    MinimapPrefab: {fileID: 114416010850775958, guid: a8f2acb57900dfa4fa38df814b1b9a5c,
+    MinimapPrefab: {fileID: 114416010850775958, guid: b073118d74c4b77498e209ae016c6732,
       type: 3}
   hideInRadar: 0
   ignoreRadarRadius: 0

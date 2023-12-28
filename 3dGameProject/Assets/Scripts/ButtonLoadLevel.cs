@@ -9,6 +9,7 @@ public class ButtonLoadLevel : MonoBehaviour
 
     public void LoadLevel()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(LeveltoLoad);
     }
 }

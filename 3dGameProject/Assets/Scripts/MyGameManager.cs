@@ -29,6 +29,7 @@ public class MyGameManager : MonoBehaviour
         {
             player = GameObject.FindWithTag("Player");
         }
+        Time.timeScale = 1f;
         healthPlayer = player.GetComponent<Health>();
         pauseButton.onClick.AddListener(TogglePause);
         informationButton.onClick.AddListener(ToggleInformation);
@@ -44,6 +45,7 @@ public class MyGameManager : MonoBehaviour
                     gameState = Gamestates.GameOver;
                     gameCanvas.SetActive(false);
                     gameOverCanvas.SetActive(true);
+                    navigationHUD.SetActive(false);
                 }
                 if (Input.GetKeyDown(KeyCode.Escape))
                 {
@@ -83,7 +85,7 @@ public class MyGameManager : MonoBehaviour
                         gameOverCanvas.SetActive(false);
                         pauseCanvas.SetActive(false);
                         informationCanvas.SetActive(true);
-
+                        navigationHUD.SetActive(false);
                         Destroy(greenBall);
 
                         // Destroy each enemy
@@ -128,6 +130,7 @@ public class MyGameManager : MonoBehaviour
             gameOverCanvas.SetActive(false);
             pauseCanvas.SetActive(false);
             informationCanvas.SetActive(false);
+            navigationHUD.SetActive(true);
         }
     }
 }
