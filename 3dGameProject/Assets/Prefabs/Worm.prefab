@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1801382623360119355}
   - component: {fileID: 1788204161341337482}
   - component: {fileID: 4100184404883246067}
+  - component: {fileID: 2338925273362459887}
   m_Layer: 0
   m_Name: Worm
   m_TagString: Worm
@@ -135,6 +136,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbafbbaa75dd204e8053a944cc15e6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2338925273362459887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3938152703123027181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: fd916d5b9e12bc849893765c9ba8d280, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0
 --- !u!1 &7663493687058683766
 GameObject:
   m_ObjectHideFlags: 0
