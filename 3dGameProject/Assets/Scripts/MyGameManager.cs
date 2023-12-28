@@ -7,6 +7,7 @@ public class MyGameManager : MonoBehaviour
     public GameObject gameOverCanvas;
     public GameObject gameCanvas;
     public GameObject pauseCanvas;
+    public GameObject navigationHUD;
     public GameObject informationCanvas;
     private Health healthPlayer;
     public Button pauseButton;
@@ -103,6 +104,7 @@ public class MyGameManager : MonoBehaviour
             gameOverCanvas.SetActive(false);
             pauseCanvas.SetActive(true);
             informationCanvas.SetActive(false);
+            navigationHUD.SetActive(false);
         }
         else if (gameState == Gamestates.Paused)
         {
@@ -112,6 +114,7 @@ public class MyGameManager : MonoBehaviour
             gameOverCanvas.SetActive(false);
             pauseCanvas.SetActive(false);
             informationCanvas.SetActive(false);
+            navigationHUD.SetActive(true);
         }
     }
 
