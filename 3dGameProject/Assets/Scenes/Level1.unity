@@ -1310,7 +1310,7 @@ PrefabInstance:
 
         Did you know plastic bottles
         can harm marine life? A simple switch to a reusable water bottle instead
-        of a sigle use plastic one helps reduce plastic waste and keeps our oceans
+        of a single use plastic one helps reduce plastic waste and keeps our oceans
         happy!'
       objectReference: {fileID: 0}
     - target: {fileID: 6095217148477429674, guid: f4df6e85f3267d64399a43055bf334b0,
