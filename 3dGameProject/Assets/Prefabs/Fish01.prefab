@@ -242,6 +242,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 277611757671191459}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 33649016c5ac78b4a822579ec4fed6fd,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4209512322247801140}
   m_SourcePrefab: {fileID: 100100000, guid: 33649016c5ac78b4a822579ec4fed6fd, type: 3}
 --- !u!1 &138351768221626875 stripped
 GameObject:
@@ -370,6 +374,14 @@ MonoBehaviour:
   onLivesGone: 1
   LevelToLoad: 
   healthText: {fileID: 0}
+--- !u!81 &4209512322247801140
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138351768221626875}
+  m_Enabled: 1
 --- !u!4 &4012953471911412712 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 33649016c5ac78b4a822579ec4fed6fd,
