@@ -481,7 +481,7 @@ PrefabInstance:
     - target: {fileID: 3865040641806624767, guid: 02887e3a111867d4e9a5fc65364ca962,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3865040641806624767, guid: 02887e3a111867d4e9a5fc65364ca962,
         type: 3}
@@ -556,7 +556,7 @@ PrefabInstance:
     - target: {fileID: 8686338758959355926, guid: 02887e3a111867d4e9a5fc65364ca962,
         type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8686338758959355926, guid: 02887e3a111867d4e9a5fc65364ca962,
         type: 3}
@@ -646,30 +646,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 51972615}
-    - targetCorrespondingSourceObject: {fileID: 8455051811834774339, guid: 02887e3a111867d4e9a5fc65364ca962,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1040580593}
-    - targetCorrespondingSourceObject: {fileID: 8092096260510870832, guid: 02887e3a111867d4e9a5fc65364ca962,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 358848733}
-    - targetCorrespondingSourceObject: {fileID: 9202103608387362448, guid: 02887e3a111867d4e9a5fc65364ca962,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 189118259}
-    - targetCorrespondingSourceObject: {fileID: 6496044332670019153, guid: 02887e3a111867d4e9a5fc65364ca962,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1491958232}
-    - targetCorrespondingSourceObject: {fileID: 6351708409992685152, guid: 02887e3a111867d4e9a5fc65364ca962,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1846061237}
-    - targetCorrespondingSourceObject: {fileID: 3171938065385811536, guid: 02887e3a111867d4e9a5fc65364ca962,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2089571981}
   m_SourcePrefab: {fileID: 100100000, guid: 02887e3a111867d4e9a5fc65364ca962, type: 3}
 --- !u!4 &51972613 stripped
 Transform:
@@ -948,32 +924,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 127981898}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &189118254 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9202103608387362448, guid: 02887e3a111867d4e9a5fc65364ca962,
-    type: 3}
-  m_PrefabInstance: {fileID: 51972612}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &189118259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189118254}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  damageOnTrigger: 1
-  damageOnCollision: 1
-  continuousDamage: 1
-  continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
-  delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!1 &241142579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3938152703123027181, guid: 74e035d52817ed04185bc315f730689d,
@@ -1630,32 +1580,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e48654390c7ca24499d5e48dd28dd21f, type: 3}
---- !u!1 &358848728 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8092096260510870832, guid: 02887e3a111867d4e9a5fc65364ca962,
-    type: 3}
-  m_PrefabInstance: {fileID: 51972612}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &358848733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 358848728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  damageOnTrigger: 1
-  damageOnCollision: 0
-  continuousDamage: 0
-  continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
-  delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!1001 &391203255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4492,32 +4416,6 @@ Terrain:
   m_EnableHeightmapRayTracing: 1
   m_EnableTreesAndDetailsRayTracing: 0
   m_TreeMotionVectorModeOverride: 3
---- !u!1 &1040580588 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8455051811834774339, guid: 02887e3a111867d4e9a5fc65364ca962,
-    type: 3}
-  m_PrefabInstance: {fileID: 51972612}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1040580593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1040580588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  damageOnTrigger: 1
-  damageOnCollision: 0
-  continuousDamage: 0
-  continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
-  delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!4 &1063627070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: 2d4a0c37bd149cb45ba954bf3a153c99,
@@ -5934,32 +5832,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1775834449}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1491958227 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6496044332670019153, guid: 02887e3a111867d4e9a5fc65364ca962,
-    type: 3}
-  m_PrefabInstance: {fileID: 51972612}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1491958232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1491958227}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  damageOnTrigger: 1
-  damageOnCollision: 1
-  continuousDamage: 1
-  continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
-  delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!4 &1493486293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
@@ -7045,32 +6917,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 186fc78f72fc81946b6f84f56ae31e22, type: 3}
---- !u!1 &1846061232 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6351708409992685152, guid: 02887e3a111867d4e9a5fc65364ca962,
-    type: 3}
-  m_PrefabInstance: {fileID: 51972612}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1846061237
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846061232}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  damageOnTrigger: 1
-  damageOnCollision: 1
-  continuousDamage: 1
-  continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
-  delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!1001 &1866989666
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7901,32 +7747,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2068557809}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2089571976 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3171938065385811536, guid: 02887e3a111867d4e9a5fc65364ca962,
-    type: 3}
-  m_PrefabInstance: {fileID: 51972612}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2089571981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2089571976}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 823b9af1e31e1ce40af8ffbf7b931295, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmount: 10
-  damageOnTrigger: 1
-  damageOnCollision: 1
-  continuousDamage: 1
-  continuousTimeBetweenHits: 0
-  destroySelfOnImpact: 0
-  delayBeforeDestroy: 0
-  explosionPrefab: {fileID: 0}
 --- !u!1001 &2095320135
 PrefabInstance:
   m_ObjectHideFlags: 0
