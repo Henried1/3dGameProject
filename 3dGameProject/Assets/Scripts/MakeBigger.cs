@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class SphereGrowth : MonoBehaviour
 {
-    public float growthRate = 1.0f; // Rate at which the sphere grows per second
+    public float growthRate = 1.0f; // Snelheid waarmee de bol per seconde groeit
 
     private void Update()
     {
-        // Increase the scale of the sphere over time
+        // maakt de bol groter
         transform.localScale += new Vector3(growthRate, growthRate, growthRate) * Time.deltaTime;
     }
 }

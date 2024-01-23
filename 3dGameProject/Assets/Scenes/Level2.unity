@@ -213,74 +213,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 12557158}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &19949604
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.83
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 23.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 3.96
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
 --- !u!1001 &43002328
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -367,7 +299,7 @@ PrefabInstance:
     - target: {fileID: 5584053790085608203, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_02_GEO (2)
+      value: Plastic_Bottle_02_GEO 9
       objectReference: {fileID: 0}
     - target: {fileID: 8495350724319353662, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
@@ -778,80 +710,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1942484820}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &61382797
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 27.99
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 4.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -17.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (7)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
---- !u!4 &61382798 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 61382797}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &116936694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1077,7 +935,7 @@ PrefabInstance:
     - target: {fileID: 4533561173740464532, guid: d7e5d1ef05de96c4088f065c211c45d5,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_01_GEO (3)
+      value: Plastic_Bottle_01_GEO 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1116,12 +974,6 @@ MonoBehaviour:
   destroySelfOnImpact: 0
   delayBeforeDestroy: 0
   explosionPrefab: {fileID: 0}
---- !u!4 &195082267 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1980829229}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &241142579 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3938152703123027181, guid: 74e035d52817ed04185bc315f730689d,
@@ -1434,7 +1286,7 @@ PrefabInstance:
     - target: {fileID: 5218888303274543439, guid: 56583592a4e54b044ade9b5e5cbd1e9d,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_03_GEO (1)
+      value: Plastic_Bottle_03_GEO 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1960,7 +1812,7 @@ PrefabInstance:
     - target: {fileID: 5218888303274543439, guid: 56583592a4e54b044ade9b5e5cbd1e9d,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_03_GEO
+      value: Plastic_Bottle_03_GEO 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2608,18 +2460,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9.3351
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 9.3351
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 9.3351
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.2
+      value: 10.1
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 12.5
+      value: 42.7
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.3
+      value: 49.9
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
@@ -2659,7 +2526,7 @@ PrefabInstance:
     - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_Name
-      value: OilBlob (6)
+      value: OilBlob 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3092,159 +2959,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 631244817}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &633186565
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: -3473526886107319893, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: growthRate
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 42.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (2)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
---- !u!4 &633186566 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 633186565}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &635450984
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 25.719402
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 48.527157
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -32.98423
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (4)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
---- !u!4 &635450985 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 635450984}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &638779964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3326,7 +3040,7 @@ PrefabInstance:
     - target: {fileID: 4533561173740464532, guid: d7e5d1ef05de96c4088f065c211c45d5,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_01_GEO (1)
+      value: Plastic_Bottle_01_GEO 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3491,80 +3205,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: 68fb6e268cb78374ca87254478d3e8e7,
     type: 3}
   m_PrefabInstance: {fileID: 646439888}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &659112657
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 17.52
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.78
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -19.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (10)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
---- !u!4 &659112658 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 659112657}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &664103216
 PrefabInstance:
@@ -3749,7 +3389,7 @@ PrefabInstance:
     - target: {fileID: 4533561173740464532, guid: d7e5d1ef05de96c4088f065c211c45d5,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_01_GEO
+      value: Plastic_Bottle_01_GEO 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3761,12 +3401,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1611404673926925012, guid: d7e5d1ef05de96c4088f065c211c45d5,
     type: 3}
   m_PrefabInstance: {fileID: 699003338}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &701516159 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 751190286}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &719666026
 PrefabInstance:
@@ -3864,74 +3498,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1286765594}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &751190286
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -2.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -6.092843
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.9171028
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
 --- !u!1001 &784032455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4487,7 +4053,7 @@ PrefabInstance:
     - target: {fileID: 4533561173740464532, guid: d7e5d1ef05de96c4088f065c211c45d5,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_01_GEO (2)
+      value: Plastic_Bottle_01_GEO 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5245,80 +4811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1001 &1088619236
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -3.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 3.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -12.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (8)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
---- !u!4 &1088619237 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1088619236}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1113901130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5535,92 +5027,13 @@ Transform:
   - {fileID: 127981899}
   - {fileID: 2012573854}
   - {fileID: 1401053172}
-  - {fileID: 633186566}
-  - {fileID: 1283031255}
-  - {fileID: 635450985}
   - {fileID: 1695710059}
   - {fileID: 639273621}
-  - {fileID: 701516159}
-  - {fileID: 61382798}
   - {fileID: 1246648874}
-  - {fileID: 1088619237}
   - {fileID: 922788016}
-  - {fileID: 1943410837}
-  - {fileID: 1906655197}
-  - {fileID: 1975435046}
-  - {fileID: 659112658}
-  - {fileID: 195082267}
   - {fileID: 1493486293}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1242756486
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 35.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 23.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
 --- !u!1001 &1246648873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5631,18 +5044,33 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.290812
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.290812
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.290812
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.38
+      value: 41.1
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1
+      value: 2.4
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -32.5
+      value: -33
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
@@ -5682,7 +5110,7 @@ PrefabInstance:
     - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_Name
-      value: OilBlob (9)
+      value: OilBlob 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5798,80 +5226,6 @@ MonoBehaviour:
   degreesPerSecond: 15
   amplitude: 0.5
   frequency: 1
---- !u!1001 &1283031254
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 52.609833
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 30.259373
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -32.98423
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (3)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
---- !u!4 &1283031255 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1283031254}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1286765594
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6087,20 +5441,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1196320277}
     m_Modifications:
+    - target: {fileID: -3473526886107319893, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: growthRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.569182
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.569182
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.569182
+      objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.804432
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 10.9
+      value: 4.4
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9.9
+      value: -27.7
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
@@ -6140,7 +5514,7 @@ PrefabInstance:
     - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_Name
-      value: OilBlob (1)
+      value: OilBlob 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6301,8 +5675,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
+      propertyPath: m_LocalScale.x
+      value: 8.4293375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 8.4293375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 8.4293375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.7
+      value: 41.6
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
@@ -6312,7 +5701,7 @@ PrefabInstance:
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.4
+      value: 20.1
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
@@ -6352,7 +5741,7 @@ PrefabInstance:
     - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_Name
-      value: OilBlob (1)
+      value: OilBlob 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6456,7 +5845,7 @@ PrefabInstance:
     - target: {fileID: 5584053790085608203, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_02_GEO
+      value: Plastic_Bottle_02_GEO 1
       objectReference: {fileID: 0}
     - target: {fileID: 8495350724319353662, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
@@ -6739,7 +6128,7 @@ PrefabInstance:
     - target: {fileID: 5584053790085608203, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_02_GEO (3)
+      value: Plastic_Bottle_02_GEO 2
       objectReference: {fileID: 0}
     - target: {fileID: 8495350724319353662, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
@@ -7094,20 +6483,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1196320277}
     m_Modifications:
+    - target: {fileID: -3473526886107319893, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: growthRate
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 11.329874
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 11.329874
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 11.329874
+      objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.8
+      value: -14.8
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.1
+      value: 11.1
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.5
+      value: -14.7
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
@@ -7147,7 +6556,7 @@ PrefabInstance:
     - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_Name
-      value: OilBlob (5)
+      value: OilBlob 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7171,7 +6580,7 @@ PrefabInstance:
     - target: {fileID: 5584053790085608203, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_02_GEO (1)
+      value: Plastic_Bottle_02_GEO 6
       objectReference: {fileID: 0}
     - target: {fileID: 8495350724319353662, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
@@ -7812,12 +7221,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1888175259}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1906655197 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1242756486}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1922444961 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 186fc78f72fc81946b6f84f56ae31e22,
@@ -7893,12 +7296,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 555fa5046fa8757478931508565a9846, type: 3}
---- !u!4 &1943410837 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 19949604}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1946436502 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400006, guid: d5baf4fcc16dcff4ca5ddae45ff20e91,
@@ -7911,148 +7308,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 894878235}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &1975435046 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1990269322}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1980829229
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 31.095566
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -4.172843
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 32.06577
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (5)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
---- !u!1001 &1990269322
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1196320277}
-    m_Modifications:
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 31.095566
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -2.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
-        type: 3}
-      propertyPath: m_Name
-      value: OilBlob (4)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f3365478d761e164fb9547bb702f89c6, type: 3}
 --- !u!1001 &2006761527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8148,20 +7403,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1196320277}
     m_Modifications:
+    - target: {fileID: -3473526886107319893, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: growthRate
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5.913391
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5.913391
+      objectReference: {fileID: 0}
+    - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5.913391
+      objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 26.418373
+      value: 24.6
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.611324
+      value: 10.5
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -32.98423
+      value: -10.2
       objectReference: {fileID: 0}
     - target: {fileID: 1517144286894132425, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
@@ -8201,7 +7476,7 @@ PrefabInstance:
     - target: {fileID: 3044907275118348662, guid: f3365478d761e164fb9547bb702f89c6,
         type: 3}
       propertyPath: m_Name
-      value: OilBlob
+      value: OilBlob 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8668,7 +7943,7 @@ PrefabInstance:
     - target: {fileID: 5584053790085608203, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_02_GEO (4)
+      value: Plastic_Bottle_02_GEO 3
       objectReference: {fileID: 0}
     - target: {fileID: 8495350724319353662, guid: 3165f15f8425723438dca67d54a3f5ea,
         type: 3}
@@ -8838,7 +8113,7 @@ PrefabInstance:
     - target: {fileID: 5218888303274543439, guid: 56583592a4e54b044ade9b5e5cbd1e9d,
         type: 3}
       propertyPath: m_Name
-      value: Plastic_Bottle_03_GEO (2)
+      value: Plastic_Bottle_03_GEO 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
