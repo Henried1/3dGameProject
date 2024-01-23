@@ -3871,7 +3871,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 27b320e107fdfa54eb9a358e76890b66, type: 3}
+      objectReference: {fileID: 2800000, guid: da90db66c5cb1f04abd2b86f20c1b612, type: 3}
     - target: {fileID: 4021462306499417196, guid: f4df6e85f3267d64399a43055bf334b0,
         type: 3}
       propertyPath: m_fontStyle
@@ -3977,7 +3977,7 @@ PrefabInstance:
     - target: {fileID: 6201090328439286298, guid: f4df6e85f3267d64399a43055bf334b0,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6587602848985712455, guid: f4df6e85f3267d64399a43055bf334b0,
         type: 3}
@@ -4009,6 +4009,16 @@ PrefabInstance:
       propertyPath: navigationHUD
       value: 
       objectReference: {fileID: 990269951}
+    - target: {fileID: 8185170487367355857, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 910.056
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185170487367355857, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19.654383
+      objectReference: {fileID: 0}
     - target: {fileID: 8370014646640846768, guid: f4df6e85f3267d64399a43055bf334b0,
         type: 3}
       propertyPath: m_fontSize

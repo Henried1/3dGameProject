@@ -4639,6 +4639,16 @@ PrefabInstance:
       propertyPath: navigationHUD
       value: 
       objectReference: {fileID: 1070881171}
+    - target: {fileID: 8185170487367355857, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 924.5807
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185170487367355857, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -12.392
+      objectReference: {fileID: 0}
     - target: {fileID: 8370014646640846768, guid: f4df6e85f3267d64399a43055bf334b0,
         type: 3}
       propertyPath: m_fontSize

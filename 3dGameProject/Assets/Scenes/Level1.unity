@@ -1348,6 +1348,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6274270516406728486, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6587602848985712455, guid: f4df6e85f3267d64399a43055bf334b0,
         type: 3}
       propertyPath: m_fontSize
@@ -1378,6 +1383,16 @@ PrefabInstance:
       propertyPath: navigationHUD
       value: 
       objectReference: {fileID: 89535567}
+    - target: {fileID: 8185170487367355857, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 910.5743
+      objectReference: {fileID: 0}
+    - target: {fileID: 8185170487367355857, guid: f4df6e85f3267d64399a43055bf334b0,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19.3953
+      objectReference: {fileID: 0}
     - target: {fileID: 8370014646640846768, guid: f4df6e85f3267d64399a43055bf334b0,
         type: 3}
       propertyPath: m_fontSize
